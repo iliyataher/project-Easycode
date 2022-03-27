@@ -1,0 +1,287 @@
+@font-face {
+    font-family: tanha;
+    src: url(/fonts/Tanha.ttf);
+}
+
+*{
+    font-family: tanha;
+}
+
+
+.navbarcontainer{
+    display:flex;
+    justify-content:center;
+}
+
+.navbar{
+    display:block;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding:20px;
+    text-align: center;
+    background:white;
+}
+
+
+.itemnavbar{
+    display: inline;
+    direction: rtl;
+    text-align: center;
+    z-index:1;
+    padding:20px;
+    text-align: center;
+    cursor: pointer;
+    transition:0.3s;
+}
+
+.itemdrownavbar{
+    display: none;
+    transition: 0.6s;
+}
+
+.drow:hover .itemdrownavbar{
+    display:block;
+    font-size:15px;
+    margin-right: 570px;
+}
+
+.itemdrownavbar:hover{
+    color: red;
+}
+.itemnavbar:hover{
+    color: red;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.itemnavbar a{
+    text-decoration: none;
+}
+
+
+.boximage{
+    width: 60%;
+    float: right;
+    margin-top: 10px;
+}
+
+.boximage img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.mahbob{
+    width: 37%;
+    text-align:center;
+}
+
+.itemmahbob{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin:10px;
+    display:block;
+    background: white;
+}
+
+.itemmahbob a{
+    text-decoration: none;
+}
+
+.itemmahbob h5 , h4 , h6{
+    text-align:right;
+    padding-right: 5px;
+}
+
+.itemmahbob img{
+    width: 35%;
+    display: block;
+    float: left;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.boximage h2{
+    text-align:right;
+}
+
+.boximage p{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-top: none;
+    border-bottom:none;
+    line-height: 2;
+}
+
+.amozashrayegantext{
+    text-align: center;
+}
+
+
+.barkhasb h4 , .barkhasb h3{
+    display:block;
+    float: right;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+.borderbarkhab{
+    border:1px solid black;
+    background: gray;
+    color: white;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.borderbarkhab:hover{
+    background: black;
+    color: yellow;
+    transition: 0.5s;
+}
+
+.boxrayegancourse{
+    text-align:right;
+}
+
+.boxnevisandeh{
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.boxtieacherasll{
+    float: right;
+}
+
+.boxnazarpeople{
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    background: white;
+    border-radius: 20px;
+}
+
+.nazarpeople{
+    direction: rtl;
+    width: 98%;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+    overflow:auto;
+    border-radius: 10px;
+}
+.nazarpeople h5{
+    text-align: left;
+    padding: 10px;
+    display:block;
+    float: left;
+    border: 1px solid green;
+    background-color: greenyellow;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.nazarpeople img{
+    width: 20%;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.nazarpeople pre , h4{
+    padding-right: 10px;
+}
+
+.boxtextfooter{
+    width: 100%;
+    text-align: center;
+}
+
+.boxnevisandeh img{
+    width: 20%;
+    float: left;
+    padding: 10px;
+    border-radius:50%;
+}
+
+.boxnevisandeh h4{
+    padding-right: 20px;
+    line-height: 2;
+}
+
+.didghah input{
+    float: right;
+    padding:20% 50%;
+    text-align: center;
+    border-radius: 10px;
+    border:1px solid black ;
+    outline: none;
+}
+
+.didghah{
+    display:block;
+    float: right;
+}
+.didghah button{
+    float: right;
+    padding: 6% 20%;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    color:blue;
+    background:conic-gradient(at center top, rgb(124, 45, 18), rgb(254, 243, 199), rgb(124, 45, 18));
+    transition: 0.5s;
+}
+
+
+.didghah button:hover{
+    border: none;
+    color: white;
+    background:conic-gradient(at left center, rgb(253, 230, 138), rgb(239, 68, 68), rgb(217, 70, 239));
+    transition: 0.5s;
+}
+@media only screen and (max-width:767px){
+    .itemnavbar {
+        font-size: 10px;
+    }
+    .itemnavbar:hover{
+        font-size: 15px;
+    }
+
+    .drow{
+        font-size: 10px;
+    }
+
+    .drow:hover .itemdrownavbar{
+        font-size: 10px;
+        margin-right: 440px;
+        padding: 7px;
+        width: 100%;
+    }
+
+    .itemdrownavbar:hover{
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .mahbob{
+        display: none;
+    }
+
+    .boximage{
+        width: 100%;
+    }
+
+}    
+
+

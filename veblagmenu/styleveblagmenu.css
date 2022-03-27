@@ -1,0 +1,325 @@
+@font-face {
+    font-family: tanha;
+    src: url(/fonts/Tanha.ttf);
+}
+
+*{
+    font-family: tanha;
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background: bisque;
+}
+
+.container{
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.vablagbig{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color:rgb(255, 255, 255);
+    color: black;
+}
+.bar1{
+    grid-row: 1/span 5;
+}
+
+.bar1 img{
+    width: 100%;
+    height: 85%;
+    border-radius: 40px;
+}
+
+.nevisandeh{
+    color: aqua;
+}
+
+.bar2 img{
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+
+.bar3 img{
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+
+.bar4 img{
+    border-radius: 20px;
+}
+
+
+img:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.akharandmahbob{
+    grid-column-start:1;
+    grid-column-end:3;
+    border: 3px solid blue;
+    width: 100%;
+}
+
+.akharin{
+    width: 70%;
+    grid-column: auto auto;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.vablaggg{
+    display: block;
+    float:right;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.vablaggg img{
+    border-radius: 20px;
+}
+
+.mahbob{
+    width: 100%;
+}
+
+.itemmahbob{
+    width: 28%;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin:10px;
+    display:block;
+    background: white;
+}
+
+.itemmahbob img{
+    display: block;
+    float: left;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.khabarname{
+    border: 1px solid black;
+    width: 29%;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background: white;
+}
+
+.inputozve{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline:none;
+    background:linear-gradient(to left top, rgb(254, 202, 202), rgb(252, 165, 165), rgb(253, 230, 138));
+    text-align: center;
+}
+
+::placeholder{
+    text-align: center;
+    font-size: 15px;
+    color:black;
+}
+
+.buttonozve{
+    padding: 7px 20px;
+    border-radius: 10px;
+    border: none;
+    background:linear-gradient(to left top, rgb(110, 231, 183), rgb(252, 211, 77), rgb(249, 168, 212));
+    transition: 0.6s;
+}
+
+.buttonozve:hover{
+    background:linear-gradient(to right bottom, rgb(217, 70, 239), rgb(220, 38, 38), rgb(251, 146, 60));
+    transition: 0.4s;
+    color: white;
+}
+
+
+.textmahbob{
+    text-align: center;
+}
+.tedaditemveblag{
+    border: 2px solid black;
+    width: 30%;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.tedad{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+    align-items:center;
+}
+.tedad span{
+    background: gray;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.spantedad:hover{
+    background-color: aqua;
+}
+
+.p:hover{
+    color: aqua;
+}
+
+.navbarcontainer{
+    display: flex;
+    justify-content:center;
+}
+
+.navbar{
+    display:block;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    background:white;
+}
+
+
+.itemnavbar{
+    display: inline;
+    direction: rtl;
+    text-align: center;
+    z-index:1;
+    padding:10px;
+    text-align: center;
+    cursor: pointer;
+    transition:0.3s;
+}
+
+.itemdrownavbar{
+    display: none;
+    transition: 0.6s;
+}
+
+.itemnavbar a{
+    transition: 0.4s;
+}
+
+.drow:hover .itemdrownavbar{
+    display:block;
+    font-size:15px;
+    margin-right: 570px;
+}
+
+.itemdrownavbar:hover{
+    color: red;
+}
+.itemnavbar a:hover{
+    font-size: 20px;
+    color: red;
+    transition: 0.3s;
+}
+
+
+@media only screen and (max-width:767px){
+    .itemnavbar {
+        font-size: 10px;
+    }
+    .itemnavbar:hover{
+        font-size: 15px;
+    }
+
+    .drow{
+        font-size: 10px;
+    }
+
+    .drow:hover .itemdrownavbar{
+        font-size: 10px;
+        margin-right: 440px;
+        padding: 7px;
+    }
+
+    .itemdrownavbar:hover{
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    h1 , h2 , h3{
+        font-size: 20px;
+    }
+
+    .nevisandeh{
+        font-size:15px;
+    }
+
+    .container{
+        display: block;
+    }
+
+
+    .akharin{
+        width: 95%;
+    }
+    .vablaggg{
+        width: 100%;
+    }
+    .mahbob{
+        width: 95%;
+    }
+
+    .itemmahbob{
+        width: 100%;
+    }
+
+    .khabarname{
+        width: 100%;
+        margin-left: 12px;
+    }
+    .khabarname form{
+        width: 100%;
+    }
+
+    .khabarname input{
+        padding: 10px 100px;
+    }
+
+    .khabarname button{
+        padding: 10px 30px;
+    }
+
+    .tedaditemveblag{
+        width: 90%;
+        margin-left: 50px;
+    }
+
+    .tedad{
+        padding: 10px 20px;
+    }
+}

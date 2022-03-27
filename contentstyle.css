@@ -1,0 +1,162 @@
+@font-face {
+    font-family:tanha;
+    src: url(/fonts/Tanha.ttf);
+}
+
+*{
+    font-family: tanha;
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.boxtextcontentcenter{
+    width: 100%;
+    height: auto;
+    background:linear-gradient(tomato , red);
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.boxetelaatcontent{
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    background:linear-gradient(to right, rgb(165, 243, 252), rgb(34, 211, 238));
+    color:black;
+}
+
+.boxetelaatcontent h2{
+    text-align: center;
+}
+
+.boxetelaatcontent h1{
+    text-align: right;
+    padding-right: 50px;
+}
+
+.boxeshterak{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+
+i{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.instagram{
+    color: magenta;
+    border: 1px solid red;
+}
+
+.facebook{
+    color: aqua;
+    border: 1px solid blue;
+}
+
+.twitter{
+    color: aqua;
+    border: 1px solid blue;
+}
+
+.telegram{
+    color:#04d4f0;
+    border:1px solid blue;
+}
+
+.boxtamasbyma{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to left,tomato , red , yellow);
+}
+.boxtamasbyma h1{
+    text-align: right;
+    padding:20px;
+}
+
+.boxtamasbyma input{
+    width: 97%;
+    text-align: right;
+    font-size: 20px;
+    outline: none;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.boxcheck{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 2% 7%;
+    border-radius: 20px;
+    margin: 20px;
+    background: linear-gradient( to top,yellow , tomato);
+    transition: 0.5s;
+    font-size: 10px;
+}
+
+button:hover{
+    background: linear-gradient(to left,yellow , tomato);
+    transition: 0.4s;
+}
+
+@media only screen and (min-width:1200px){
+    button{
+        font-size: 30px;
+        
+    }
+
+    .boxcheck{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:768px){
+
+    .boxtextcontentcenter{
+        font-size: 20px;
+    }
+
+    .boxetelaatcontent{
+        font-size: 10px;
+    }
+    .boxtamasbyma input{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .button{
+        padding: 5% 20%;
+    }
+
+}
+
+
+

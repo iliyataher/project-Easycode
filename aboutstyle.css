@@ -1,0 +1,117 @@
+@font-face {
+    font-family: tanha;
+    src: url(/fonts/Tanha.ttf);
+}
+*{
+    font-family: tanha;
+}
+body{
+    text-align: center;
+}
+
+.boxblack{
+    width: 100%;
+    height:auto;
+    background:linear-gradient(to left bottom, rgb(236, 72, 153), rgb(239, 68, 68), rgb(245, 158, 11));
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.boxblack h1{
+    color: white;
+}
+
+.boxozviat{
+    width: 100%;
+    height: auto;
+    background-color:black;
+    border-radius: 20px;
+}
+
+.boxozviat p{
+    color: white;
+    padding-top: 20px;
+}
+
+.boxozviat button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background: linear-gradient(yellow , tomato);
+}
+
+.boxozviat button:hover{
+    background: linear-gradient(to left,yellow , tomato);
+}
+
+.boxozviat input{
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+}
+
+
+.boxfehrestfooter{
+    float: right;
+    margin-top: 50px;
+}
+
+
+.amozashtolidmohtavafehrestfooter{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.amozashtolidmohtavafehrestfooter li{
+    list-style-type: none;
+    color: gray;
+    padding: 10px;
+}
+
+
+.amozashzabanfahrastfooter{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.amozashzabanfahrastfooter li{
+    list-style-type: none;
+    color: gray;
+    padding: 10px;
+}
+
+
+.codeyadfehrestfooter{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.codeyadfehrestfooter li{
+    list-style-type: none;
+    color: gray;
+    padding: 10px;
+}
+
+@media only screen and (max-width:768px){
+    .amozashtolidmohtavafehrestfooter , .amozashzabanfahrastfooter , .codeyadfehrestfooter{
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .text{
+        font-size: 12px;
+    }
+
+}
+

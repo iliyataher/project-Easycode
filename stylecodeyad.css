@@ -1,0 +1,585 @@
+@font-face {
+    font-family: tanha;
+    src: url(/fonts/Tanha.ttf);
+}
+
+*{
+    font-family: tanha;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.preloader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #070707;
+}
+
+.preloader-item{
+    width: 60%;
+    height: 100%;
+    background-image: url(/gif/bold-preloader.gif);
+    z-index: 999999;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+
+.navbar{
+    background: linear-gradient(to right top, rgb(49, 46, 129), rgb(129, 140, 248), rgb(49, 46, 129));
+    border-radius: 10px;
+    height:64px;
+}
+
+.itemnavbar{
+    display: block;
+    float:left;
+    padding: 20px;
+    color: white;
+    transition: 0.6s;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.itemnavbar:hover{
+    border-bottom: 2px solid white;
+    background: linear-gradient(to left top, rgb(254, 202, 202), rgb(220, 38, 38));
+    transition: 0.6s;
+}
+
+
+.boxserchblackasll{
+    display: flex;
+    justify-content:center;
+}
+
+.boxblackserch{
+    width: 90%;
+    height:auto;
+    display: block;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(to right top, rgb(49, 46, 129), rgb(129, 140, 248), rgb(49, 46, 129));
+
+}
+
+.buttonsetch{
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 7px;
+    border-style: inset;
+    background-color: blue;
+    color: white;
+    transition: 0.8s;
+}
+
+.buttonsetch:hover{
+    background-color:greenyellow;
+    transition: 0.4s;
+    color: white;
+}
+
+.boxserch{
+    width:100%;
+    height: auto;
+    background-color:#efaa52;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.boxserch button{
+    font-size: 10px;
+}
+
+.inputserch{
+    width:70%;
+    height: 30px;
+    border-radius: 10px;
+    border-style:inset;
+    text-align: center;
+    outline: none;
+}
+
+.inputserch::placeholder{
+    text-align:right;
+    padding: 10px;
+}
+
+.namadserch{
+    margin-left: 10px;
+    font-size: 15px;
+    color:white;
+    border: 2px solid;
+    border-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.boxcoursecodeyad{
+    width: 100%;
+    height:auto;
+}
+
+.textjadidtarincodeyad{
+    text-align: right;
+}
+
+.textjadidtarincodeyad h1{
+    border-right:5px solid greenyellow;
+    margin: 10px;
+}
+
+.textjadidtarincodeyad h4{
+    margin: 20px;
+}
+
+.course img{
+    width:100%;
+    height: auto;
+}
+
+.course{
+    width:31%;
+    text-align: center;
+    border: 1px solid ;
+    padding: 10px;
+    margin: 10px;
+    background-color:ghostwhite;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    display: block;
+    float: left;
+    transition:all ease 0.5s;
+    cursor: pointer;
+}
+
+.course:hover{
+    background: linear-gradient(to right top, rgb(49, 46, 129), rgb(129, 140, 248), rgb(49, 46, 129));
+    transition:all ease 0.5s;
+    color: white;
+}
+
+.course img{
+    border-radius: 10px;
+}
+
+.coursess{
+    border-top: 1px solid white;
+}
+
+del{
+    color: red;
+}
+
+
+.navbar{
+    position:relative;
+}
+
+.dropdown-content{
+    position: absolute;
+    
+}
+
+.aitemnavbar{
+    display:none;
+    padding: 13px;
+}
+
+
+.dropdown-content:hover .aitemnavbar{
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.aitemnavbar:hover{
+    background-color: red;
+}
+
+.vorod a{
+    text-decoration: none;
+    color: white;
+}
+
+.vorod:hover a{
+    color: black;
+}
+
+
+.ozveshavid{
+    width: 100%;
+    height:auto;
+    background: linear-gradient(to right top, rgb(49, 46, 129), rgb(129, 140, 248), rgb(49, 46, 129));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display:inline-block;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.boxozviatvasatsafhe{
+    text-align: center;
+
+}
+
+.boxozviatvasatsafhe input{
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 15px;
+    outline: none;
+    color:black;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.5);
+    margin-top: 20px;
+}
+
+.khadamat{
+    width:auto;
+    height: auto;
+    border: 1px solid black;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+    background:linear-gradient(to left top, rgb(255, 228, 230), rgb(204, 251, 241));
+    transition: 0.6s;
+}
+
+.khadamat:hover{
+    background:conic-gradient(at left bottom, rgb(199, 210, 254), rgb(71, 85, 105), rgb(199, 210, 254));
+    transition: 0.5s;
+    font-size: 15px;
+    color: white;
+}
+
+.buttonsaptsafheasllindex{
+    color: black;
+    text-align: center;
+    padding:2% 5%;
+    border-radius: 15px;
+    background:linear-gradient(to left bottom, rgb(251, 113, 133), rgb(217, 70, 239), rgb(99, 102, 241));
+    color: white;
+}
+
+
+.khadamat h2{
+    text-align:center;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px;
+    color: red;
+}
+.khadamat p{
+    text-align:center;
+    color: black;
+}
+
+
+
+
+.b{
+    margin-bottom: 20px;
+}
+
+.inputozviatvasatsafhe::placeholder{
+    font-family: cursive;
+}
+
+.textmoarefikadamatcodeyad{
+    text-align: center;
+}
+
+.boxkhadamatcodeyad{
+    width: 100%;
+    height: auto;
+    background:white;
+    text-align: center;
+    border-radius: 15px;
+    transition: 0.6s;
+}
+
+.buttonsaptsafheasllindex:hover{
+    background:linear-gradient(to left top, rgb(251, 113, 133), rgb(217, 70, 239), rgb(99, 102, 241));
+    color: black;
+    border-radius: 18px;
+    transition:0.6s;
+}
+
+.boxakharinkampain{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right top, rgb(49, 46, 129), rgb(129, 140, 248), rgb(49, 46, 129));
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.boxakharinkampain input{
+    padding: 10px 100px;
+    font-size:20px;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    color: black;
+    border: none;
+    box-shadow: 2px 5px 2px 2px rgba(0,0,0,0.5);
+}
+
+.boxakharinkampain button{
+    color: black;
+    padding: 1.5% 4%;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    box-shadow: 2px 5px 2px 2px rgba(0,0,0,0.5);
+    border: none;
+    background:linear-gradient(to right bottom, rgb(251, 113, 133), rgb(217, 70, 239), rgb(99, 102, 241));
+    transition: 0.6s;
+}
+
+.boxakharinkampain button:hover{
+    background:linear-gradient(to left top, rgb(217, 70, 239), rgb(220, 38, 38), rgb(251, 146, 60));
+    transition: 0.6s;
+}
+
+
+.boxfehrestfooter{
+    float: right;
+    margin-top: 50px;
+}
+
+
+.amozashtolidmohtavafehrestfooter{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.amozashtolidmohtavafehrestfooter li{
+    list-style-type: none;
+    color: gray;
+    padding: 10px;
+}
+
+
+.amozashzabanfahrastfooter{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.amozashzabanfahrastfooter li{
+    list-style-type: none;
+    color: gray;
+    padding: 10px;
+}
+
+
+.codeyadfehrestfooter{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.codeyadfehrestfooter li{
+    list-style-type: none;
+    color: gray;
+    padding: 10px;
+}
+
+.boxtextfooter{
+    width: 100%;
+    height:auto;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.itemnavbar a{
+    text-decoration: none;
+    color:white;
+}
+
+
+.contenttextpaeen{
+    color: red;
+}
+
+@media only screen and (max-width:450px){
+    .course{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .amozashzabanfahrastfooter{
+        padding: 10px;
+    }
+    .boxakharinkampain{
+        font-size: 15px;
+    }
+    .boxozviatvasatsafhe button{
+        padding: 2% 5%;
+    }
+    .itemnavbar{
+        font-size: 6px;
+    }
+
+    .itemnavbar:hover{
+        font-size: 9px;
+    }
+
+    .namadserch{
+        display: none;
+    }
+
+    .boxserch{
+        padding: 10px;
+    }
+
+
+    .textjadidtarincodeyad h1{
+        font-size: 21px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .textjadidtarincodeyad h4{
+        font-size: 16px;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .boxakharinkampain h3{
+        font-size: 15px;
+    }
+
+    .boxakharinkampain button{
+        padding: 1% 5%;
+        border-radius: 10px;
+    }
+
+    .boxakharinkampain input{
+        padding: 2% 4%;
+    }
+
+
+    .boxfehrestfooter h4{
+        font-size: 10px;
+        text-align: center;
+    }
+    .amozashtolidmohtavafehrestfooter , .amozashzabanfahrastfooter , .codeyadfehrestfooter{
+        padding: 0px;
+        font-size: 10px;
+    }
+}
+
+.boxkhadamatasll{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.khadamat{
+    width: 100%;
+}
+
+@media only screen and (max-width:767px){
+    .itemnavbar{
+        padding: 15px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .itemnavbar:hover{
+        border-bottom: 2px solid white;
+    }
+
+    .course{
+        width:97%;
+    }
+
+    .ozveshavid h2{
+        font-size: 20px;
+    }
+
+    .ozveshavid button{
+        padding: 2% 5%;
+    }
+
+    .boxkhadamatasll{
+        display: block;
+        width: 97%;
+    }
+
+    .amozashtolidmohtavafehrestfooter , .amozashzabanfahrastfooter , .codeyadfehrestfooter{
+        padding:0px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .boxfehrestfooter{
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:767px){
+
+    .boxkhadamatasll{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+
+
+    .inputserch{
+        height: 50px;
+    }
+}
+
+
+@media only screen and (max-width:514px){
+    
+
+    .navabr{
+        height: 2px;
+    }
+    
+    .itemnavbar{
+        display: none;
+        float: none;
+        background-color: red;
+        z-index: 1;
+    }
+}
+
+
+
+

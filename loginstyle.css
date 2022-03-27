@@ -1,0 +1,148 @@
+
+@font-face {
+    font-family: tanha;
+    src: url(/fonts/Tanha.ttf);
+}
+
+*{
+    font-family: tanha;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+
+
+.safhe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxlogin-signup{
+    position: relative;
+    width: 40%;
+    height: 600px;
+    background: white;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 30px;
+    border-style:inset;
+    z-index: 1;
+}
+
+ h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight:600;
+    font-family:cursive;
+    text-shadow: 4px 4px  yellowgreen;
+}
+
+.image{
+    width: 40%;
+    height: 30%;
+}
+
+.inputusername{
+    height: 50px;
+    width:90%;
+    border-style: outset;
+    border: none;
+    box-shadow:inset 2px 2px 4px 2px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+}
+
+::placeholder{
+    text-align:center;
+    font-size: 20px;
+    font-family: cursive;
+    color:black;
+}
+.inputpassword{
+    height: 50px;
+    width: 90%;
+    margin-top: 20px;
+    border-style: outset;
+    border: none;
+    box-shadow:inset 2px 2px 4px 2px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+}
+
+.input{
+    text-align: center;
+}
+
+.submit{
+    width: 90%;
+    margin-top:30px;
+    height: 60px;
+    border-radius: 20px;
+    background: aqua;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+.sign-up{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    background: white;
+    z-index:2;
+    border-radius: 30px;
+    text-align: center;
+    display:none;
+}
+
+
+
+
+.inputemail{
+    height: 50px;
+    width:90%;
+    border-style: outset;
+    border: none;
+    box-shadow:inset 2px 2px 4px 2px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.inputc-password{
+    height: 50px;
+    width:90%;
+    border-style: outset;
+    border: none;
+    box-shadow:inset 2px 2px 4px 2px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bargashtsign-up:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.bargashtlogin:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width:767px){
+    .boxlogin-signup{
+        width: 90%;
+        height: 580px;
+    }
+}

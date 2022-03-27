@@ -1,0 +1,214 @@
+
+@font-face {
+    font-family: tanha;
+    src: url(/fonts/Tanha.ttf);
+}
+
+*{
+    font-family: tanha;
+}
+
+.container{
+    width: 100%;
+}
+.ticher{
+    width: 40%;
+    display: block;
+    float: left;
+}
+
+img{
+    width: 100%;
+    display:block;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.button{
+    width: 100%;
+    padding: 10px 15px;
+    margin-left:10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none; 
+}
+
+.donbal{
+    color:white;
+    background:red;
+    transition: 0.6s;
+}
+
+.donbal:hover{
+    background-color: magenta;
+    transition: 0.6s;
+}
+
+.sendmas:hover{
+    background-color: aqua;
+    transition: 0.6s;
+}
+
+.sendmas{
+    background: blue;
+    color: white;
+    transition: 0.6s;
+}
+
+.text{
+    width: 50%;
+    float: right;
+    font-size: 20px;
+    margin-top: 150px;
+}
+
+.courseall{
+    width: 100%;
+    display: inline-block;
+}
+
+.course{
+    width: 40%;
+    border: 1px solid black;
+    text-align: center;
+    display: block;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.course:hover{
+    background-color: antiquewhite;
+    transition: 0.5s;
+}
+
+.course img{
+    width: 96%;
+}
+
+del{
+    color: red;
+}
+
+.rayegan{
+    color: greenyellow;
+    font-size: 30px;
+}
+
+.motale{
+    width: 100%;
+    height: auto;
+    background:rgb(56, 55, 55);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.motale button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background: linear-gradient(yellow , tomato);
+}
+
+.motale input{
+    padding: 10px 120px;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.motale button:hover{
+    background: linear-gradient( to left,yellow , tomato);
+}
+
+.boxfehrestfooter{
+    float: right;
+    margin-top: 50px;
+}
+
+
+.amozashtolidmohtavafehrestfooter{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.amozashtolidmohtavafehrestfooter li{
+    list-style-type: none;
+    color: gray;
+    padding: 10px;
+}
+
+
+.amozashzabanfahrastfooter{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.amozashzabanfahrastfooter li{
+    list-style-type: none;
+    color: gray;
+    padding: 10px;
+}
+
+
+.codeyadfehrestfooter{
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.codeyadfehrestfooter li{
+    list-style-type: none;
+    color: gray;
+    padding:10px;
+}
+
+h1{
+    text-align: center;
+}
+
+@media only screen and (max-width:768px){
+    .text{
+        font-size: 10px;
+        margin:0px;
+        text-align: center;
+    }
+
+    .course{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .motale{
+        margin-left: 10px;
+        width: 100%;
+        font-size: 8px;
+    }
+
+    .motale input{
+        padding:2% 10%;
+    }
+
+    .amozashtolidmohtavafehrestfooter, .amozashzabanfahrastfooter , .codeyadfehrestfooter{
+        padding: 0px;
+        text-align: center;
+        font-size: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
