@@ -12,7 +12,7 @@ body{
 .boxblack{
     width: 100%;
     height:auto;
-    background:linear-gradient(to left bottom, rgb(236, 72, 153), rgb(239, 68, 68), rgb(245, 158, 11));
+    background: linear-gradient(to right top, rgb(49, 46, 129), rgb(129, 140, 248), rgb(49, 46, 129));
     border-radius: 20px;
     text-align: center;
     padding-top: 30px;
@@ -25,7 +25,7 @@ body{
 .boxozviat{
     width: 100%;
     height: auto;
-    background-color:black;
+    background: linear-gradient(to right top, rgb(49, 46, 129), rgb(129, 140, 248), rgb(49, 46, 129));
     border-radius: 20px;
 }
 

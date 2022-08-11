@@ -45,7 +45,7 @@ body{
 
 .itemnavbar{
     display: block;
-    float:left;
+    float:right;
     padding: 20px;
     color: white;
     transition: 0.6s;
@@ -54,79 +54,10 @@ body{
     cursor: pointer;
 }
 .itemnavbar:hover{
-    border-bottom: 2px solid white;
-    background: linear-gradient(to left top, rgb(254, 202, 202), rgb(220, 38, 38));
+    background: linear-gradient(to left bottom, rgb(49, 46, 129), rgb(150, 110, 208), rgb(49, 46, 129));
     transition: 0.6s;
 }
 
-
-.boxserchblackasll{
-    display: flex;
-    justify-content:center;
-}
-
-.boxblackserch{
-    width: 90%;
-    height:auto;
-    display: block;
-    padding: 50px;
-    text-align: center;
-    border-radius: 10px;
-    background: linear-gradient(to right top, rgb(49, 46, 129), rgb(129, 140, 248), rgb(49, 46, 129));
-
-}
-
-.buttonsetch{
-    padding: 10px;
-    margin-left: 10px;
-    border-radius: 7px;
-    border-style: inset;
-    background-color: blue;
-    color: white;
-    transition: 0.8s;
-}
-
-.buttonsetch:hover{
-    background-color:greenyellow;
-    transition: 0.4s;
-    color: white;
-}
-
-.boxserch{
-    width:100%;
-    height: auto;
-    background-color:#efaa52;
-    border-radius: 10px;
-    font-size: 10px;
-}
-
-.boxserch button{
-    font-size: 10px;
-}
-
-.inputserch{
-    width:70%;
-    height: 30px;
-    border-radius: 10px;
-    border-style:inset;
-    text-align: center;
-    outline: none;
-}
-
-.inputserch::placeholder{
-    text-align:right;
-    padding: 10px;
-}
-
-.namadserch{
-    margin-left: 10px;
-    font-size: 15px;
-    color:white;
-    border: 2px solid;
-    border-color: white;
-    padding: 10px;
-    border-radius: 30px;
-}
 
 .boxcoursecodeyad{
     width: 100%;
@@ -138,7 +69,8 @@ body{
 }
 
 .textjadidtarincodeyad h1{
-    border-right:5px solid greenyellow;
+    border-right:5px solid blue;
+    padding: 10px;
     margin: 10px;
 }
 
@@ -164,12 +96,13 @@ body{
     float: left;
     transition:all ease 0.5s;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .course:hover{
     background: linear-gradient(to right top, rgb(49, 46, 129), rgb(129, 140, 248), rgb(49, 46, 129));
-    transition:all ease 0.5s;
     color: white;
+    transform: scale(0.95);
 }
 
 .course img{
@@ -215,10 +148,6 @@ del{
     color: white;
 }
 
-.vorod:hover a{
-    color: black;
-}
-
 
 .ozveshavid{
     width: 100%;
@@ -239,7 +168,7 @@ del{
 }
 
 .boxozviatvasatsafhe input{
-    width: 50%;
+    width: 48%;
     height: 40px;
     text-align: center;
     margin-top: 10px;
@@ -249,16 +178,13 @@ del{
     outline: none;
     color:black;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.5);
-    margin-top: 20px;
+    margin: 10px;
 }
 
 .khadamat{
     width:auto;
     height: auto;
     border: 1px solid black;
-    margin-left:10px;
-    margin-right: 10px;
-    margin-top: 20px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
     background:linear-gradient(to left top, rgb(255, 228, 230), rgb(204, 251, 241));
@@ -277,8 +203,9 @@ del{
     text-align: center;
     padding:2% 5%;
     border-radius: 15px;
-    background:linear-gradient(to left bottom, rgb(251, 113, 133), rgb(217, 70, 239), rgb(99, 102, 241));
+    background: linear-gradient(to left bottom, rgb(49, 46, 129), rgb(150, 110, 208), rgb(49, 46, 129));
     color: white;
+    margin: 10px;
 }
 
 
@@ -320,10 +247,10 @@ del{
 }
 
 .buttonsaptsafheasllindex:hover{
-    background:linear-gradient(to left top, rgb(251, 113, 133), rgb(217, 70, 239), rgb(99, 102, 241));
-    color: black;
+    background: linear-gradient(to right bottom, rgb(49, 46, 129), rgb(150, 110, 208), rgb(49, 46, 129));
     border-radius: 18px;
     transition:0.6s;
+    transform: scale(0.95);
 }
 
 .boxakharinkampain{
@@ -357,12 +284,12 @@ del{
     font-size: 20px;
     box-shadow: 2px 5px 2px 2px rgba(0,0,0,0.5);
     border: none;
-    background:linear-gradient(to right bottom, rgb(251, 113, 133), rgb(217, 70, 239), rgb(99, 102, 241));
+    background: linear-gradient(to left bottom, rgb(49, 46, 129), rgb(150, 110, 208), rgb(49, 46, 129));
     transition: 0.6s;
 }
 
 .boxakharinkampain button:hover{
-    background:linear-gradient(to left top, rgb(217, 70, 239), rgb(220, 38, 38), rgb(251, 146, 60));
+    background: linear-gradient(to left top, rgb(49, 46, 129), rgb(150, 110, 208), rgb(49, 46, 129));
     transition: 0.6s;
 }
 
@@ -554,7 +481,7 @@ del{
 
     .boxkhadamatasll{
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns:auto auto auto;
     }
 
 
