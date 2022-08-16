@@ -1,6 +1,6 @@
 @font-face {
     font-family: tanha;
-    src: url(/fonts/Tanha.ttf);
+    src: url(fonts/Tanha.ttf);
 }
 
 *{
@@ -12,7 +12,7 @@
     border: 1px solid black;
     text-align: center;
     display: block;
-    float: left;
+    float: right;
 }
 .modares img{
     width: 100%;

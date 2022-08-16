@@ -1,9 +1,13 @@
 @font-face {
     font-family: tanha;
-    src: url(/fonts/Tanha.ttf);
+    src: url(fonts/Tanha.ttf);
 }
 
 *{
+    font-family: tanha;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 , span , p{
     font-family: tanha;
 }
 
@@ -56,6 +60,7 @@ body{
 .itemnavbar:hover{
     background: linear-gradient(to left bottom, rgb(49, 46, 129), rgb(150, 110, 208), rgb(49, 46, 129));
     transition: 0.6s;
+    transform: scale(0.95);
 }
 
 
